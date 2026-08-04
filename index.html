@@ -173,6 +173,21 @@
       margin-top: 10px;
     }
 
+    .qr-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .qr-wrapper img {
+      width: min(220px, 100%);
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      padding: 8px;
+    }
+
     /* Transparency */
     .link-planilha {
       display: inline-flex;
@@ -275,10 +290,14 @@
 
       <div class="pix-box">
         <div class="pix-label">Chave Pix</div>
-        <div class="pix-key">CHAVE_PIX_DO_TEMPLO_OU_RESPONSAVEL</div>
+        <div class="pix-key">07.608.534/0001-44</div>
         <p class="pix-note">
-          Preferência por chave do templo ou de pessoa de confiança da Sangha.
+          Associação Cultural Oriente-Ocidente
         </p>
+
+        <div class="qr-wrapper">
+          <img src="qr-code-templo.png" alt="QR Code do templo" />
+        </div>
       </div>
     </section>
 
